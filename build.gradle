@@ -30,3 +30,7 @@ if (project.hasProperty('release.useLastTag')) {
 test{
      maxHeapSize = "2g"
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.5'
+}
