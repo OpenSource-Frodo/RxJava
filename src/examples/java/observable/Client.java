@@ -145,7 +145,14 @@ public class Client {
         //        Combine.mergeMethod();
         //        Combine.startWithMethod();
         //        Combine.switchIfEmptyMethod();
-        Combine.zipWithMethod();
+        //        Combine.zipWithMethod();
+
+        //        ErrorHandler.onErrorReturnMethod();
+        //        ErrorHandler.onErrorResumeNextMethod();
+        //        ErrorHandler.onExceptionResumeNextMethod();
+        //        ErrorHandler.retryMethod();
+
+        Utility.delayMethod();
 
         Utils.println("==== waiting ====");
         while (flag) {
